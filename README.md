@@ -14,11 +14,15 @@ In my opinion, at least four points:
 
 The website address: [Go to the BlockEvent](https://blockevent.herokuapp.com)
 
+
 ### Do register
 
 Yes, it's a website for all people, so you also need to register first. Click above link, you can see the login page and clike the "sign up" button, you will see the page likes below.
 
+You can see some bullet screen on the background, don't be worry, I just design it for fun, it makes the page more energetic and remind you there are lots of things in the whole year, just like the infinite bullet screen. 
+
 ![image](https://github.com/liyulinnyu/Myimg/blob/master/blockevent2.png)
+
 
 ### Login
 
@@ -26,52 +30,85 @@ If you have finished the register operation, it will change to login page automa
 
 ![image](https://github.com/liyulinnyu/Myimg/blob/master/blockevent1.png)
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+### Main page
 
-```
-Give an example
-```
+If you login, you can see the main page as below. It contains following elements:
+1. Show your name.
+2. Time and event search input button.
+3. Show the year. (I will update its soon so that you can find every year's events)
+4. Month select button.
+5. Log out button.
+6. The whole year event blocks. (2017 has 365 blocks)
+7. If a block has contents, it will show the different color that you have given it when you created it. For me, you can see I have a orange block, because I have recorded a event in that day.
 
-### And coding style tests
+![image](https://github.com/liyulinnyu/Myimg/blob/master/blockevent4.png)
 
-Explain what these tests test and why
 
-```
-Give an example
-```
+### Create event
 
-## Deployment
+Ok, now please create your first event, it's so easy, just click a block you like. For example, I click the third one(01-03-2017). And input some contents, do not forget to change the color! 
 
-Add additional notes about how to deploy this on a live system
+![image](https://github.com/liyulinnyu/Myimg/blob/master/blockevent3.png)
 
-## Built With
+After finished, click submit button, if you see "success" message, congratulations! You create the first one. And you can see the block color has changed. For me, color of the third block becomes pink like below.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+![image](https://github.com/liyulinnyu/Myimg/blob/master/blockevent5.png)
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+### Find event
+
+As for finding events, you have three choice. 
+1. Select a certain month by using the month selector. For example, I want to select the first month, the page will show like below:
+
+![image](https://github.com/liyulinnyu/Myimg/blob/master/blockevent6.png)
+
+2. Select a certain event by using Event search button. If the event has been found, the block will flash three times to remind you. If there are more than one block contain this event, they will flash at the same time.
+(Because the flashing effect cannot be showed in picture, so I don't push image here, you can try it in your own BlockEvent)
+
+3. Select a certain day by using Time search button. If the day has been found, the block will flash three times to remind you.
+(Because the flashing effect cannot be showed in picture, so I don't push image here, you can try it in your own BlockEvent)
+
+
+### Update event
+
+Just click the block which you want to update the information, it will show the old contents, what you need to do is just like create event.
+
+
+### Delete event
+
+Select the block which you want to delete the information. And just click the delete button. For example, I delete the orange event, the picture will like below.
+
+![image](https://github.com/liyulinnyu/Myimg/blob/master/blockevent7.png)
+
+![image](https://github.com/liyulinnyu/Myimg/blob/master/blockevent8.png)
+
+
+### Other things
+
+1. You can see all the past day block without any events will show the deep gray color, today and all the future day block without any events will show the light gray.
+
+2. You can put your mouse on the block, it will show the date. And you can also click it to see the date.
+
+3. You'd better to use this website in PC end. Even though I have done the adaptation of mobile end, because the purpose is to show the whole year's events, it will have a better visual effect in PC end.
+
+
+### Thank you for reading
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Now, this is the BlockEvent 1.2
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Yulin Li** - *Initial work* - [Yulin's blog](https://liyulinnyu.github.io)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+## Contact me
 
-## License
+If you want to contact me, please email me: yl4832@nyu.edu
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## Final words
 
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Please don't try to attack this website, it will be a happy thing to you, but it will do lots of trouble for me. Thank you so much.
+* If you have some advices, please contact me.
+* Have a nice day!
